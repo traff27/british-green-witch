@@ -13,18 +13,22 @@
   --paper:#faf6ee;
   --gold:#c7a75e;
   --gold-light:#e0c78a;
-  --ink:#22141f;
-  --muted:#5c4a52;
+  --gold-ink:#5e491a;
+  --ink:#1a0e18;
+  --muted:#45353c;
+  --link:#5a340f;
   --rule:rgba(199,167,94,.45);
   --max:1120px;
   --radius:4px;
+  --measure:68ch;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;font-size:100%}
 body{
   margin:0;
   font-family:"EB Garamond",Georgia,"Times New Roman",serif;
-  font-size:1.2rem;
+  font-size:1.25rem;
+  font-weight:400;
   line-height:1.65;
   color:var(--ink);
   background:var(--paper);
@@ -33,37 +37,51 @@ body{
     linear-gradient(180deg, #f7f0e2 0%, var(--paper) 180px);
 }
 img,svg{max-width:100%;height:auto}
-a{color:#6a3f12;text-underline-offset:3px}
+a{color:var(--link);text-underline-offset:3px}
 a:hover{color:var(--purple)}
 h1,h2,h3,.brand-name{font-family:"Cinzel",Palatino,serif;font-weight:400;letter-spacing:.04em;line-height:1.2;color:var(--purple)}
-h1{font-size:clamp(1.8rem,4vw,2.7rem);margin:0 0 .4em}
-h2{font-size:clamp(1.35rem,2.4vw,1.8rem);margin:1.6em 0 .5em}
-h3{font-size:1.15rem;margin:1.3em 0 .4em}
-.lead{font-size:1.28rem;color:var(--muted)}
-.wrap{width:min(var(--max),calc(100% - 2rem));margin-inline:auto}
+h1{font-size:clamp(2.05rem,4.2vw,3.05rem);margin:0 0 .4em}
+h2{font-size:clamp(1.55rem,2.6vw,2.05rem);margin:1.6em 0 .5em}
+h3{font-size:1.35rem;margin:1.3em 0 .4em}
+.lead{font-size:1.35rem;color:var(--muted);max-width:var(--measure)}
+.wrap{width:min(var(--max),calc(100% - 2.5rem));margin-inline:auto}
 .skip{position:absolute;left:-999px}
 .skip:focus{left:12px;top:12px;background:#fff;padding:.5rem .8rem;z-index:20;color:var(--purple)}
+main p,main li,.hook,.sub,.formats,.notice,footer.site .fine,blockquote.pull{
+  max-width:var(--measure)
+}
 
 /* Header */
 header.site{background:var(--purple);color:var(--cream);border-bottom:3px solid var(--gold);position:relative}
-header.site .bar{display:flex;align-items:center;gap:1rem;padding:.7rem 0;flex-wrap:wrap}
+header.site .bar{display:flex;align-items:center;gap:1rem;padding:.85rem 0;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:.75rem;color:var(--cream);text-decoration:none;margin-right:auto}
 .brand:hover{color:var(--gold-light)}
-.brand svg{width:48px;height:48px;flex:none}
-.brand-name{display:block;font-size:1.15rem;letter-spacing:.12em;color:inherit}
-.brand small{display:block;font-family:"EB Garamond",serif;font-style:italic;font-size:.92rem;letter-spacing:.02em;opacity:.85;text-transform:none}
+.brand svg{width:52px;height:52px;flex:none}
+.brand-name{display:block;font-size:1.3rem;letter-spacing:.12em;color:inherit}
+.brand small{display:block;font-family:"EB Garamond",serif;font-style:italic;font-size:1.05rem;letter-spacing:.02em;font-weight:400;text-transform:none;color:var(--cream);opacity:1}
 nav.main{display:flex;flex-wrap:wrap;gap:.15rem .15rem}
-nav.main a{color:var(--cream);text-decoration:none;padding:.45rem .7rem;font-family:"Cinzel",serif;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;border-bottom:1px solid transparent}
+nav.main a{color:var(--cream);text-decoration:none;padding:.5rem .75rem;font-family:"Cinzel",serif;font-size:1rem;font-weight:400;letter-spacing:.07em;text-transform:uppercase;border-bottom:1px solid transparent}
 nav.main a:hover,nav.main a[aria-current="page"]{color:var(--gold-light);border-bottom-color:var(--gold)}
 .nav-menu{margin:0}
-.nav-menu summary{display:none;list-style:none;cursor:pointer;font-family:"Cinzel",serif;letter-spacing:.1em;text-transform:uppercase;font-size:.8rem;color:var(--cream);border:1px solid var(--gold);padding:.4rem .7rem}
+.nav-menu summary{display:none;list-style:none;cursor:pointer;font-family:"Cinzel",serif;letter-spacing:.08em;text-transform:uppercase;font-size:1rem;color:var(--cream);border:1px solid var(--gold);padding:.5rem .85rem}
 .nav-menu summary::-webkit-details-marker{display:none}
 
+/* Kickers: gold-ink on light pages (overrides the inline colour/size on book pages); gold-light on the dark hero */
+.kicker{
+  font-family:"Cinzel",Palatino,serif;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  font-size:1rem !important;
+  font-weight:400;
+  color:var(--gold-ink) !important;
+  margin:0 0 .7rem
+}
+
 /* Hero */
-.hero{background:var(--purple);color:var(--cream);padding:2.8rem 0 3rem;border-bottom:3px solid var(--gold);text-align:center}
+.hero{background:var(--purple);color:var(--cream);padding:3rem 0 3.2rem;border-bottom:3px solid var(--gold);text-align:center}
 .hero h1{color:var(--cream);margin-bottom:.15em}
-.hero .kicker{font-family:"Cinzel",serif;letter-spacing:.22em;text-transform:uppercase;font-size:.78rem;color:var(--gold);margin:0 0 .8rem}
-.hero .lead{color:var(--cream);max-width:40rem;margin:0 auto 1.4rem}
+.hero .kicker{letter-spacing:.18em;color:var(--gold-light) !important;margin:0 0 .9rem}
+.hero .lead{color:var(--cream);max-width:38rem;margin:0 auto 1.4rem}
 .gold-rule{display:block;width:6rem;height:1px;background:var(--gold);margin:1rem auto}
 
 /* Book grid */
@@ -71,18 +89,18 @@ nav.main a:hover,nav.main a[aria-current="page"]{color:var(--gold-light);border-
 .book-card{background:#fff;border:1px solid var(--rule);padding:1rem 1rem 1.2rem;text-align:center;display:flex;flex-direction:column;height:100%;box-shadow:0 1px 0 rgba(28,15,32,.04)}
 .book-card a.cover-link{display:block}
 .book-card img{width:100%;max-width:220px;aspect-ratio:5/8;object-fit:cover;margin:0 auto;box-shadow:0 8px 24px rgba(28,15,32,.28)}
-.book-card h2{font-size:1.05rem;margin:.9rem 0 .2rem}
+.book-card h2{font-size:1.2rem;margin:.9rem 0 .2rem}
 .book-card h2 a{color:var(--purple);text-decoration:none}
-.book-card h2 a:hover{color:#6a3f12}
-.book-card .sub{font-style:italic;color:var(--muted);font-size:1rem;margin:0 0 .6rem}
-.book-card .hook{font-size:1.02rem;margin:0 0 1rem;flex:1}
-.soon{display:inline-block;font-family:"Cinzel",serif;letter-spacing:.12em;text-transform:uppercase;font-size:.7rem;color:var(--purple);border:1px solid var(--gold);padding:.25rem .5rem;margin-bottom:.6rem}
+.book-card h2 a:hover{color:var(--link)}
+.book-card .sub{font-style:italic;color:var(--muted);font-size:1.0625rem;margin:0 0 .6rem}
+.book-card .hook{font-size:1.125rem;margin:0 0 1rem;flex:1}
+.soon{display:inline-block;font-family:"Cinzel",serif;letter-spacing:.1em;text-transform:uppercase;font-size:1rem;font-weight:400;color:var(--purple);border:1px solid var(--gold);padding:.3rem .55rem;margin-bottom:.6rem}
 
 /* Buttons */
 .btn{
   display:inline-block;background:var(--gold);color:var(--purple);text-decoration:none;
-  font-family:"Cinzel",serif;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;
-  padding:.65rem 1rem;border:1px solid #a8893d;border-radius:var(--radius);margin:.2rem .25rem .2rem 0
+  font-family:"Cinzel",serif;font-size:1rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  padding:.7rem 1.15rem;border:1px solid #a8893d;border-radius:var(--radius);margin:.2rem .25rem .2rem 0
 }
 .btn:hover{background:var(--gold-light);color:var(--purple)}
 .btn.ghost{background:transparent;color:var(--purple);border-color:var(--gold)}
@@ -96,7 +114,7 @@ nav.main a:hover,nav.main a[aria-current="page"]{color:var(--gold-light);border-
 .buy-box{background:#fff;border:1px solid var(--gold);padding:1.1rem 1.2rem 1.2rem;margin:1.2rem 0}
 .buy-box h2{margin-top:0}
 .buy-box p{margin:.3rem 0 .7rem}
-.formats{margin:0 0 .6rem;color:var(--muted);font-size:1.05rem}
+.formats{margin:0 0 .6rem;color:var(--muted);font-size:1.125rem}
 main.page{padding:2rem 0 3.5rem}
 ul.plain{padding-left:1.2rem}
 ul.plain li{margin:.35rem 0}
@@ -110,19 +128,22 @@ ul.plain li{margin:.35rem 0}
 .signup-placeholder p{margin:.3rem 0}
 
 /* Footer */
-footer.site{background:var(--purple);color:var(--cream);padding:2rem 0 2.4rem;border-top:3px solid var(--gold);font-size:1.05rem}
+footer.site{background:var(--purple);color:var(--cream);padding:2rem 0 2.4rem;border-top:3px solid var(--gold);font-size:1.125rem}
 footer.site a{color:var(--gold-light)}
-footer.site nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-bottom:1rem}
-footer.site .fine{opacity:.8;font-size:.95rem;max-width:46rem}
+footer.site nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-bottom:1rem}
+footer.site .fine{opacity:1;font-size:1.05rem;max-width:46rem;color:var(--cream)}
 
 /* 404 / misc */
 .center{text-align:center;padding:3rem 0}
-blockquote.pull{font-style:italic;font-size:1.25rem;border-left:2px solid var(--gold);margin:1.2rem 0;padding:.2rem 0 .2rem 1rem;color:var(--purple-mid)}
+blockquote.pull{font-style:italic;font-size:1.4rem;border-left:2px solid var(--gold);margin:1.2rem 0;padding:.2rem 0 .2rem 1rem;color:var(--purple-mid)}
 
 
 @media (min-width:801px){
-  /* Keep the main nav visible even though it lives inside a closed <details> for the mobile menu. */
-  details.nav-menu nav.main{display:flex !important}
+  /* Keep the main nav visible even though it lives inside a closed <details> for the mobile menu.
+     Chromium hides closed-details content with content-visibility, so display on nav alone is not enough. */
+  details.nav-menu{display:flex;flex:0 0 auto}
+  details.nav-menu::details-content{display:contents;content-visibility:visible}
+  details.nav-menu nav.main{display:flex}
   details.nav-menu summary{display:none}
 }
 @media (max-width:800px){
@@ -133,7 +154,9 @@ blockquote.pull{font-style:italic;font-size:1.25rem;border-left:2px solid var(--
   .nav-menu nav.main{display:none;flex-direction:column;width:100%;padding:.4rem 0 .6rem}
   .nav-menu[open] nav.main{display:flex}
   header.site .bar{align-items:center}
-  body{font-size:1.12rem}
-  .btn{display:block;text-align:center;margin:.35rem 0}
+  body{font-size:1.1875rem}
+  h3{font-size:1.3rem}
+  .lead{font-size:1.28rem}
+  .btn{display:block;text-align:center;margin:.35rem 0;font-size:1rem}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
