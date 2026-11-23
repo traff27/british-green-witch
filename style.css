@@ -216,3 +216,11 @@ blockquote.pull{font-style:italic;font-size:1.4rem;border-left:2px solid var(--g
   .btn{display:block;text-align:center;margin:.35rem 0;font-size:1rem}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Section banners (guides and printables): decorative photo strip under the header, no text on top */
+.section-banner{background:var(--purple);border-bottom:3px solid var(--gold);overflow:hidden}
+.section-banner picture{display:block}
+.section-banner img{display:block;width:100%;height:clamp(180px,24vw,360px);object-fit:cover;object-position:var(--banner-pos,50% 50%)}
+@media (max-width:640px){
+  .section-banner img{height:auto;aspect-ratio:2/1;object-position:50% 50%}
+}
