@@ -87,7 +87,16 @@
       "datePublished": "2026-11-23",
       "dateModified": "2026-11-23",
       "inLanguage": "en-GB",
-      "image": "https://britishgreenwitch.co.uk/img/og-home.jpg",
+      "image": [
+        {
+          "@type": "ImageObject",
+          "url": "https://britishgreenwitch.co.uk/img/hedgerow-banner-2400.jpg",
+          "width": 2400,
+          "height": 800,
+          "caption": "An autumn hedgerow in low evening sun, with red haws, orange rosehips, blackberries and the silvery seedheads of old man’s beard (wild clematis)"
+        },
+        "https://britishgreenwitch.co.uk/img/og-home.jpg"
+      ],
       "about": [
         {
           "@type": "Thing",
@@ -356,6 +365,16 @@
     </details>
   </div>
 </header>
+<div class="section-banner" style="--banner-pos:50% 45%">
+  <picture>
+    <source media="(max-width: 640px)" type="image/avif" srcset="/img/hedgerow-banner-mobile.avif">
+    <source media="(max-width: 640px)" type="image/webp" srcset="/img/hedgerow-banner-mobile.webp">
+    <source media="(max-width: 640px)" type="image/jpeg" srcset="/img/hedgerow-banner-mobile.jpg">
+    <source type="image/avif" srcset="/img/hedgerow-banner-1200.avif 1200w, /img/hedgerow-banner-2400.avif 2400w" sizes="100vw">
+    <source type="image/webp" srcset="/img/hedgerow-banner-1200.webp 1200w, /img/hedgerow-banner-2400.webp 2400w" sizes="100vw">
+    <img src="/img/hedgerow-banner-1200.jpg" srcset="/img/hedgerow-banner-1200.jpg 1200w, /img/hedgerow-banner-2400.jpg 2400w" sizes="100vw" width="2400" height="800" alt="An autumn hedgerow in low evening sun, with red haws, orange rosehips, blackberries and the silvery seedheads of old man’s beard (wild clematis)" decoding="async" fetchpriority="high">
+  </picture>
+</div>
 <main id="main" class="page guide"><div class="wrap">
 
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/guides/">Guides</a></li><li><span aria-current="page">Wheel of the Year 2026 and 2027</span></li></ol></nav>
