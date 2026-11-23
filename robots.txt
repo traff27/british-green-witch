@@ -1,59 +1,78 @@
 # Everyone is welcome, including search engines and AI assistants.
 User-agent: *
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Googlebot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Bingbot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: GPTBot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Claude-User
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: anthropic-ai
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Applebot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: CCBot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: Amazonbot
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: meta-externalagent
 Allow: /
+Disallow: /printables/dl-
 
 User-agent: xAI-Bot
 Allow: /
+Disallow: /printables/dl-
 
 Sitemap: https://britishgreenwitch.co.uk/sitemap.xml

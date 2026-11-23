@@ -10,7 +10,6 @@ The site is static HTML, CSS, self-hosted fonts and images, and three printable 
 
 - Book covers are taken from the Kindle front covers of each title.
 - Fonts (Cinzel and EB Garamond) are under the SIL Open Font License; see `fonts/LICENSES.txt`.
-- Printables live at `/printables/` and match the files that go with *The British Green Witch's Almanac 2027*.
-- A MailerLite sign-up form is planned for the printables page but has not been added yet. The boxed placeholder on that page marks the spot.
+- Printables are offered through a MailerLite sign-up on `/printables/` and match the files that go with *The British Green Witch's Almanac 2027*. The PDFs themselves are not linked from the public pages.
 
 Do not put a personal email address on the site. The public address is hello@britishgreenwitch.co.uk.
