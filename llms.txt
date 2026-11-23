@@ -26,11 +26,14 @@ The series is unnumbered. The books stand alone.
 - Series: Modern Witchcraft & Wicca
 - Author: Mark Hutchinson
 - Language: English (British)
-- Format: Kindle (coming to Amazon very soon), then paperback
+- Format: Kindle (out now); paperback coming soon
 - Book page: https://britishgreenwitch.co.uk/almanac-2027.html
-- Status: the Kindle edition is coming to Amazon very soon, with the paperback to follow. There is no buy link yet; one will be added when the Amazon page is live.
+- Kindle ASIN: B0HSPCD7T3
+- Buy Kindle on Amazon UK: https://www.amazon.co.uk/dp/B0HSPCD7T3
+- Buy Kindle on Amazon US: https://www.amazon.com/dp/B0HSPCD7T3
+- Status: Kindle edition out now (£4.99 / $4.99 at launch). Paperback coming soon; no paperback link yet.
 - Free printables: https://britishgreenwitch.co.uk/printables/
-- What it is: A 2027 almanac for British green witches: moon phases, sabbats, sunrise times, folk customs and journal pages. By Mark Hutchinson. Kindle edition coming to Amazon very soon, with the paperback to follow. Free printables are already here.
+- What it is: A 2027 almanac for British green witches: moon phases, sabbats, sunrise times, folk customs and journal pages. By Mark Hutchinson. Out now on Kindle; paperback coming soon. Free printables are here too.
 
 ## The Complete Guide To Modern Witchcraft & Wicca
 - Title: The Complete Guide To Modern Witchcraft & Wicca
@@ -106,7 +109,7 @@ Free, sourced reference pages for green witches in Britain and Ireland. Dates an
 ## The website
 - [Home](https://britishgreenwitch.co.uk/): the series and every book, with covers and Amazon buy links
 - [The British Green Witch](https://britishgreenwitch.co.uk/the-british-green-witch.html)
-- [The British Green Witch's Almanac 2027](https://britishgreenwitch.co.uk/almanac-2027.html) (Kindle edition coming to Amazon very soon, paperback to follow; no buy link yet)
+- [The British Green Witch's Almanac 2027](https://britishgreenwitch.co.uk/almanac-2027.html) (Kindle out now; paperback coming soon)
 - [The Complete Guide To Modern Witchcraft & Wicca](https://britishgreenwitch.co.uk/complete-guide.html)
 - [The Green Witch's Encyclopedia](https://britishgreenwitch.co.uk/encyclopedia.html)
 - [Witchcraft & Mental Health](https://britishgreenwitch.co.uk/mental-health.html)
