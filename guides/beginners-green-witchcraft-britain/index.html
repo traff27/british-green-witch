@@ -87,7 +87,16 @@
       "datePublished": "2026-11-23",
       "dateModified": "2026-11-23",
       "inLanguage": "en-GB",
-      "image": "https://britishgreenwitch.co.uk/img/og-home.jpg",
+      "image": [
+        {
+          "@type": "ImageObject",
+          "url": "https://britishgreenwitch.co.uk/img/windowsill-banner-2400.jpg",
+          "width": 2400,
+          "height": 800,
+          "caption": "A cottage windowsill in late-afternoon light, with a beeswax candle in a brass holder, a jar of rosehips, a pot of rosemary, a bundle of dried herbs and a small bowl"
+        },
+        "https://britishgreenwitch.co.uk/img/og-home.jpg"
+      ],
       "about": [
         {
           "@type": "Thing",
@@ -207,6 +216,16 @@
     </details>
   </div>
 </header>
+<div class="section-banner" style="--banner-pos:50% 70%">
+  <picture>
+    <source media="(max-width: 640px)" type="image/avif" srcset="/img/windowsill-banner-mobile.avif">
+    <source media="(max-width: 640px)" type="image/webp" srcset="/img/windowsill-banner-mobile.webp">
+    <source media="(max-width: 640px)" type="image/jpeg" srcset="/img/windowsill-banner-mobile.jpg">
+    <source type="image/avif" srcset="/img/windowsill-banner-1200.avif 1200w, /img/windowsill-banner-2400.avif 2400w" sizes="100vw">
+    <source type="image/webp" srcset="/img/windowsill-banner-1200.webp 1200w, /img/windowsill-banner-2400.webp 2400w" sizes="100vw">
+    <img src="/img/windowsill-banner-1200.jpg" srcset="/img/windowsill-banner-1200.jpg 1200w, /img/windowsill-banner-2400.jpg 2400w" sizes="100vw" width="2400" height="800" alt="A cottage windowsill in late-afternoon light, with a beeswax candle in a brass holder, a jar of rosehips, a pot of rosemary, a bundle of dried herbs and a small bowl" decoding="async" fetchpriority="high">
+  </picture>
+</div>
 <main id="main" class="page guide"><div class="wrap">
 
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/guides/">Guides</a></li><li><span aria-current="page">Beginner’s guide to green witchcraft</span></li></ol></nav>
