@@ -26,11 +26,11 @@ The series is unnumbered. The books stand alone.
 - Series: Modern Witchcraft & Wicca
 - Author: Mark Hutchinson
 - Language: English (British)
-- Format: Paperback and Kindle, coming soon
+- Format: Kindle (coming to Amazon very soon), then paperback
 - Book page: https://britishgreenwitch.co.uk/almanac-2027.html
-- Status: coming soon on Amazon. There is no buy link yet.
+- Status: the Kindle edition is coming to Amazon very soon, with the paperback to follow. There is no buy link yet; one will be added when the Amazon page is live.
 - Free printables: https://britishgreenwitch.co.uk/printables/
-- What it is: A 2027 almanac for British green witches: moon phases, sabbats, sunrise times, folk customs and journal pages. By Mark Hutchinson. Coming soon on Amazon. Free printables are already here.
+- What it is: A 2027 almanac for British green witches: moon phases, sabbats, sunrise times, folk customs and journal pages. By Mark Hutchinson. Kindle edition coming to Amazon very soon, with the paperback to follow. Free printables are already here.
 
 ## The Complete Guide To Modern Witchcraft & Wicca
 - Title: The Complete Guide To Modern Witchcraft & Wicca
@@ -95,14 +95,23 @@ The series is unnumbered. The books stand alone.
 - Buy Kindle on Amazon US: https://www.amazon.com/dp/B0HRZN76QX
 - What it is: British curse lore and protective folk magic, retold honestly and turned into a calm, practical craft for today. By Mark Hutchinson. This is not a revenge spellbook.
 
+## Free guides
+Free, sourced reference pages for green witches in Britain and Ireland. Dates and times are in UK clock time (GMT/BST) and each page lists its sources.
+- [Guides index](https://britishgreenwitch.co.uk/guides/): the list of free guides.
+- [The Wheel of the Year in 2026 and 2027: UK dates and times](https://britishgreenwitch.co.uk/guides/wheel-of-the-year/): all eight festivals; exact solstice and equinox times in GMT/BST for 2026 and 2027 (from timeanddate.com, cross-checked with the US Naval Observatory); traditional and astronomical cross-quarter dates; an honest history of the Wheel. Yule 2027 is 22 December in the UK (solstice 02:42 GMT).
+- [2027 moon calendar for the UK](https://britishgreenwitch.co.uk/guides/moon-calendar-2027-uk/): all 13 new moons and 12 full moons of 2027 in UK time; folk moon names labelled as North American almanac names; seasonal blue moon 20 May, Harvest Moon 16 September; eclipses visible from the UK (penumbral lunar eclipse 20 February; partial solar eclipse 2 August 2027, with city times and safety advice).
+- [A beginner's guide to green witchcraft in Britain](https://britishgreenwitch.co.uk/guides/beginners-green-witchcraft-britain/): what green witchcraft is and is not, a four-week starter plan, the British seasons, plant and foraging safety, and UK foraging law in brief (not legal advice). No medical claims.
+- [FAQ](https://britishgreenwitch.co.uk/guides/faq/): 15 short answers about the books, practice, safety and the law, and the website.
+
 ## The website
 - [Home](https://britishgreenwitch.co.uk/): the series and every book, with covers and Amazon buy links
 - [The British Green Witch](https://britishgreenwitch.co.uk/the-british-green-witch.html)
-- [The British Green Witch's Almanac 2027](https://britishgreenwitch.co.uk/almanac-2027.html) (coming soon; no buy link yet)
+- [The British Green Witch's Almanac 2027](https://britishgreenwitch.co.uk/almanac-2027.html) (Kindle edition coming to Amazon very soon, paperback to follow; no buy link yet)
 - [The Complete Guide To Modern Witchcraft & Wicca](https://britishgreenwitch.co.uk/complete-guide.html)
 - [The Green Witch's Encyclopedia](https://britishgreenwitch.co.uk/encyclopedia.html)
 - [Witchcraft & Mental Health](https://britishgreenwitch.co.uk/mental-health.html)
 - [The British Witch's Book of Curses and Protection](https://britishgreenwitch.co.uk/curses-and-protection.html)
+- [Free guides](https://britishgreenwitch.co.uk/guides/): Wheel of the Year dates, 2027 UK moon calendar, beginner's guide, FAQ
 - [Free printables](https://britishgreenwitch.co.uk/printables/): A4 PDFs (moon calendar 2027, sabbat ritual cards, seed-saving log). Free, by email sign-up.
 - [Privacy](https://britishgreenwitch.co.uk/privacy.html)
 - [Contact](https://britishgreenwitch.co.uk/contact.html)
@@ -110,4 +119,4 @@ The series is unnumbered. The books stand alone.
 ## Contact
 hello@britishgreenwitch.co.uk
 
-This is a books website, not a blog and not an Amazon store. Buy links go to Amazon’s own product pages.
+This is a books website with a small set of free reference guides. It is not a blog and not an Amazon store. Buy links go to Amazon’s own product pages.

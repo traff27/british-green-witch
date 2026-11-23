@@ -13,3 +13,5 @@ The site is static HTML, CSS, self-hosted fonts and images, and three printable 
 - Printables are offered through a MailerLite sign-up on `/printables/` and match the files that go with *The British Green Witch's Almanac 2027*. The PDFs themselves are not linked from the public pages.
 
 Do not put a personal email address on the site. The public address is hello@britishgreenwitch.co.uk.
+
+- Free guides live in `/guides/` as plain HTML pages. `/guides/guides.css` adds a few extra styles (tables, breadcrumbs, FAQ) on top of `style.css`.
