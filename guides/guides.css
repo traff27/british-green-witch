@@ -1,0 +1,54 @@
+/* Guide pages: small additions on top of /style.css. Kept separate so the main stylesheet is untouched. */
+.crumbs{font-size:1.05rem;margin:0 0 1rem;color:var(--muted)}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.crumbs li+li::before{content:"›";color:var(--gold-ink);margin-right:.5rem}
+.crumbs a{color:var(--link)}
+.updated{color:var(--muted);font-size:1.05rem;margin:.2rem 0 1.4rem}
+.answer{background:#fff;border-left:3px solid var(--gold);padding:.9rem 1.1rem;margin:1.2rem 0 1.6rem;max-width:var(--measure)}
+.answer p{margin:.3rem 0}
+.toc{background:#fff;border:1px solid var(--rule);padding:.9rem 1.2rem;margin:1.4rem 0 1.8rem;max-width:var(--measure)}
+.toc h2{font-size:1.15rem;margin:0 0 .4rem}
+.toc ol{margin:0;padding-left:1.3rem}
+.toc li{margin:.2rem 0}
+.table-wrap{overflow-x:auto;margin:1rem 0 1.4rem;-webkit-overflow-scrolling:touch}
+table.data{border-collapse:collapse;width:100%;min-width:34rem;background:#fff;font-size:1.08rem}
+table.data caption{text-align:left;font-style:italic;color:var(--muted);padding:0 0 .5rem}
+table.data th,table.data td{border:1px solid var(--rule);padding:.5rem .65rem;text-align:left;vertical-align:top}
+table.data thead th{background:var(--purple);color:var(--cream);font-family:"Cinzel",Palatino,serif;font-weight:400;letter-spacing:.04em;font-size:1rem}
+table.data tbody th{font-weight:700;color:var(--purple)}
+table.data tbody tr:nth-child(even){background:#fbf7ef}
+table.data .note{color:var(--muted);font-size:.98rem}
+.warn{background:#fff7ef;border:1px solid #c98a4a;border-left:4px solid #9a4a14;padding:.9rem 1.1rem;margin:1.3rem 0;max-width:var(--measure)}
+.warn h2,.warn h3{margin-top:0;color:#5a2509}
+.further{background:#fff;border:1px solid var(--gold);padding:1.1rem 1.3rem;margin:2.2rem 0;max-width:calc(var(--measure) + 2.6rem)}
+.further h2{margin-top:0;font-size:1.5rem}
+.further li{margin:.4rem 0}
+.qa{margin:0 0 1.3rem;max-width:var(--measure)}
+.qa h3{margin:1.1em 0 .3em}
+.qa p{margin:.25rem 0}
+.sources{font-size:1.05rem}
+.sources li{margin:.35rem 0}
+.guide-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.1rem;margin:1.5rem 0 2rem}
+.guide-list li{background:#fff;border:1px solid var(--rule);padding:1rem 1.1rem 1.1rem;max-width:none}
+.guide-list h2{font-size:1.25rem;margin:0 0 .4rem}
+.guide-list h2 a{color:var(--purple);text-decoration:none}
+.guide-list h2 a:hover{color:var(--link);text-decoration:underline}
+.guide-list p{margin:0}
+.steps{counter-reset:step;list-style:none;padding:0;max-width:var(--measure)}
+.steps>li{counter-increment:step;position:relative;padding:0 0 0 3rem;margin:0 0 1.2rem;max-width:calc(var(--measure) + 3rem)}
+.steps>li::before{content:counter(step);position:absolute;left:0;top:.1rem;width:2.1rem;height:2.1rem;border:1px solid var(--gold);border-radius:50%;text-align:center;line-height:2.05rem;font-family:"Cinzel",serif;color:var(--purple);background:#fff}
+.steps h3{margin:.1rem 0 .3rem}
+@media (max-width:800px){
+  table.data{font-size:1rem}
+  .steps>li{padding-left:2.6rem}
+}
+/* Phones: stack table rows into labelled cards instead of scrolling sideways */
+@media (max-width:640px){
+  table.data.stack{min-width:0;border:0;background:transparent}
+  table.data.stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  table.data.stack tr{display:block;background:#fff !important;border:1px solid var(--rule);margin:0 0 .8rem;padding:.4rem .2rem}
+  table.data.stack td,table.data.stack tbody th{display:block;border:0;padding:.25rem .7rem}
+  table.data.stack tbody th{font-family:"Cinzel",Palatino,serif;font-weight:400;font-size:1.15rem;border-bottom:1px solid var(--rule);margin-bottom:.2rem}
+  table.data.stack td::before{content:attr(data-label);display:block;font-family:"Cinzel",Palatino,serif;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold-ink)}
+  table.data.stack td:empty{display:none}
+}
