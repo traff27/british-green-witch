@@ -224,3 +224,29 @@ blockquote.pull{font-style:italic;font-size:1.4rem;border-left:2px solid var(--g
 @media (max-width:640px){
   .section-banner img{height:auto;aspect-ratio:2/1;object-position:50% 50%}
 }
+
+/* Overlay variant: page heading sits on the banner's dark sky (Dales moon banner) */
+.page.has-banner-overlay{padding-top:0}
+.page.has-banner-overlay>.wrap{padding-top:1.5rem}
+.section-banner.overlay{position:relative;isolation:isolate;display:flex;align-items:flex-start;min-height:clamp(320px,32vw,470px);color:var(--cream)}
+.section-banner.overlay picture{position:absolute;inset:0;z-index:-2}
+.section-banner.overlay img{height:100%}
+.section-banner.overlay::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(90deg,rgba(28,15,32,.5) 0%,rgba(28,15,32,.22) 40%,rgba(28,15,32,0) 62%)}
+.banner-text{padding:2.4rem 0 2.6rem}
+.banner-text>*{max-width:min(38rem,56%)}
+.banner-text h1{color:var(--cream);margin:0 0 .35em;text-shadow:0 1px 14px rgba(28,15,32,.65)}
+.banner-text .kicker{color:var(--gold-light) !important;text-shadow:0 1px 8px rgba(28,15,32,.7)}
+.banner-text .lead,.banner-text p{color:var(--cream);text-shadow:0 1px 10px rgba(28,15,32,.7)}
+.banner-text a{color:var(--gold-light)}
+.banner-text a:hover{color:#fff}
+.banner-text .crumbs{color:var(--cream);margin-bottom:.9rem}
+.banner-text .crumbs a{color:var(--gold-light)}
+.banner-text .crumbs li+li::before{color:var(--gold-light)}
+@media (max-width:640px){
+  .section-banner.overlay{min-height:0}
+  .section-banner.overlay img{height:100%;aspect-ratio:auto;object-position:var(--banner-pos-mobile,48% 0%)}
+  .section-banner.overlay::before{background:linear-gradient(180deg,rgba(28,15,32,.38) 0%,rgba(28,15,32,.3) 50%,rgba(28,15,32,.72) 100%)}
+  .banner-text{padding:1.5rem 0 1.7rem}
+  .banner-text>*{max-width:100%}
+}
